@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/public.css">
+  <link rel="stylesheet" href="../css/cart.css">
+</head>
+<body>
+  
+  <div class="logoBox">
+    <img src="http://www.daocaomall.com/themes/idaocao/image/daocaomall_logo.jpg" alt="" srcset="" class="logoImg">
+    <ul class="m_po" id="m_po">
+      <a href="../html/login.html">登录</a>|
+      <a href="">注册</a>
+      <input type="hidden" id="is_user" value="0" />
+      <li class="manage close" id="manage">
+        <a href="user.php">个人中心</a><s class="s"></s>
+        <!-- <li><a href="user.php?act=order_list">我的订单</a></li>
+        <li><a href="user.php?act=bonus">优惠券</a></li>
+        <li><a href="user.php?act=comment_list">我的评价</a></li>
+        <li><a href="/user.php?act=shai_list">我的晒物</a></li>
+        <li><a href="/user.php?act=transform_points">我的积分</a></li> -->
+      </li>
+      <li class="quick"><a href="help.php">帮助中心</a></li>
+			<li class="hotline"><em class="num">4006-883-113</em></li>
+    </ul>
+  </div>
+  <div class="border_bottom"></div>
+  <div class="current_location wrap_980"><s class="s"></s>当前位置: <a href="../html/index.html">首页</a> <code>&gt;</code> 用户中心
+
+    <div class="clearfix">
+			<span class="flow_icon">我的购物车</span>
+			<div class="steps">
+				<ul class="clearfix">
+					<li><span class="current">1.加入购物车</span></li>
+					<li><span>2.填写核对订单信息</span></li>
+					<li class="last"><span>3.成功提交订单</span></li>
+				</ul>
+			</div>
+    </div>
+    <div class="shoppingcart">
+      <div class="my_shop">
+    <ul>
+      <li class="s">商品</li>
+      <li class="n">名称</li>
+      <li class="w85">属性</li>
+      <li class="w85">单价</li>
+      <li class="w100">数量</li>
+      <li class="w85">小计</li>
+      <li class="w100">赠送积分</li>
+      <li class="w100">操作</li>
+    </ul>
+    <div class="productList">
+      <div class="listBox blue">
+        <div class="i">
+          <a href="" target="_blank"><img src="../ings/good1.jpg" border="0" title="G.E.M.演唱会个性T恤" /></a>
+        </div>
+        
+        <div class="c">
+          <div class="delcommodity" style="display:none;">您确定要删除吗？<br><a href="#">确定</a>&nbsp;&nbsp;<a href="#">取消</a></div>
+          <dl>
+            <dt><a href="" target="_blank" class="f_blue">G.E.M.演唱会个性T恤</a></dt>								
+            <dd class="w85">尺码:M <br />
+            颜色:白金 <br />
+            </dd>
+            
+            <dd class="w85">￥250.00元</dd>
+            <dd class="numB">
+              <a href="javascript:void(0)" flag="77156" class="num_d_i"> - 减</a>
+              <input type="text" id="goods_number_77156" value="1" size="4" class="numtext" style="text-align:center" flag="77156" onkeyup="check_num(this)" />
+              <a href="javascript:void(0)" flag="77156" class="num_d_ii" > + 加</a>	
+            </dd>
+            <dd class="w85" id="goods_total_price_77156">￥250.00元</dd>
+            <dd class="w100" id="goods_total_point_77156">250 分</dd>
+            <dd class="w100">
+             
+              <a href="javascript:if (confirm('您确实要把该商品移出购物车吗？')) location.href='flow.php?step=drop_goods&amp;id=77156'; " class="f_blue">删除</a>
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+      <div class="total">
+        <div class="clearshopping"><span>×</span><a href="#" onclick="location.href='';return false;">清空购物车</a></div>
+        <div class="fr"><b id="total_all_point" style="padding-right:5px;">250 分</b>   商品金额总计：<b id="total_all_price" class="p16">￥250.00元</b> </div>
+        <div class="nextstep_box">
+        <a href="../html/list.html" class="goShopping">继续购物</a>
+        <a href="" onclick="return to_checkout();" class="pay">立刻结算</a>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+
+  <div class="footer">
+    <div class="wrap_980">
+    <ul class="help_center clearfix">
+      <li class="item">
+        <div class="s s_4"></div>
+        <h3 class="title">购物指南</h3>
+        <ul>
+          <li><a href="help-7.html" title="订单状态说明">订单状态说明</a></li><li><a href="help-8.html" title="购物流程">购物流程</a></li><li><a href="help-34.html" title="积分规则">积分规则</a></li>
+        </ul>
+      </li>
+
+      <li class="item">
+        <div class="s s_8"></div>
+        <h3 class="title">配送方式</h3>
+        <ul>
+          <li><a href="help-25.html" title="配送价格">配送价格</a></li><li><a href="help-26.html" title="配送时间">配送时间</a></li><li><a href="help-35.html" title="特殊说明">特殊说明</a></li></ul>
+      </li>
+
+      <li class="item">
+        <div class="s s_9"></div>
+        <h3 class="title">支付方式</h3>
+        <ul>
+          <li><a href="help-29.html" title="支付方式">支付方式</a></li><li><a href="help-41.html" title="如何办理退款">如何办理退款</a></li><li><a href="help-42.html" title="发票制度说明">发票制度说明</a></li></ul>
+      </li>
+
+
+      <li class="item">
+        <div class="s s_10"></div>
+        <h3 class="title">售后服务</h3>
+        <ul>
+          <li><a href="help-30.html" title="退换货政策">退换货政策</a></li><li><a href="help-31.html" title="网上退换货流程">网上退换货流程</a></li><li><a href="help-32.html" title="如何办理退换货">如何办理退换货</a></li></ul>
+      </li>
+
+
+      <li class="item">
+        <div class="s s_5"></div>
+        <h3 class="title">帮助中心</h3>
+        <ul>
+          <li><a href="help-9.html" title="交易条款">交易条款</a></li><li><a href="help-11.html" title="忘记密码">忘记密码</a></li><li><a href="help-36.html" title="客服服务">客服服务</a></li></ul>
+      </li>
+
+      <li class="item">
+        <div class="s s_11"></div>
+        <h3 class="title">优惠政策</h3>
+        <ul>
+          <li><a href="help-38.html" title="会员积分">会员积分</a></li><li><a href="help-39.html" title="优惠券">优惠券</a></li><li><a href="fashionList-13.html" title="商城动态">商城动态</a></li></ul>
+      </li>
+
+      <li class="item final">
+        <div class="s s_qq"></div>
+        <h3 class="title">优惠政策</h3>
+        <ul>
+          <li><a title="点击这里给我发消息" target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=254093643&amp;site=稻草商城&amp;menu=yes"><img title="点击这里给我发消息" border="0" alt="点击这里给我发消息" src="http://wpa.qq.com/pa?p=2:254093643:41" /></a></li>
+          <li><a title="点击这里给我发消息" target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=2396409656&amp;site=qq&amp;menu=yes"><img title="点击这里给我发消息" border="0" alt="点击这里给我发消息" src="http://wpa.qq.com/pa?p=2:2396409656:41" /></a></li>
+      </ul>
+      </li>
+    </ul>
+  </div>
+
+  <div class="footer_nav clearfix">
+    <div class="inner">
+      <div class="nav_list">
+        <a href="about-1.html"  target="_blank" >关于我们</a>| 
+        <a href="about-2.html"  target="_blank" >品牌入驻</a>| 
+        <a href="about-3.html"  target="_blank" >招贤纳士</a>| 
+        <a href="about-4.html"  target="_blank" >友情链接</a>| 
+        <a href="about-5.html"  target="_blank" >联系我们</a>
+      </div>
+    </div>
+
+  <div class="copyright">&copy; 2003-2020 稻草商城 版权所有，并保留所有权利。 ICP备案证书号：
+    <a href="http://www.beian.miit.gov.cn/" target="_blank">粤ICP备19133477号</a>
+    <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44030302001632">
+      <img src="../ings/26.png" style="width: 16px;vertical-align: bottom;"/>粤公网安备 44030302001632号</a>
+  <!--增值电信许可证:<a href="themes/idaocao/image/icp.jpg" target="_blank">粤B2-20120468</a> -->
+    <p class="safe">
+      <a class="s1" target="_blank" href="http://61.144.227.239:9003/webrecord/form_query.jsp">公共安全信息网络监察</a>
+      <a class="s2" target="_blank" href="http://www.miibeian.gov.cn/">经营性网站备案信息</a>
+      <a class="s3" target="_blank" href="http://net.china.com.cn/index.htm">不良信息举报中心</a>
+      <a class="s4" target="_blank" href="http://61.144.227.239:9003/webrecord/form_query.jsp">深圳网络警察报警平台</a>
+      <a class="s5" target="_blank" href="http://szcert.ebs.org.cn/0adee6c0-c939-4014-9c4d-ccf1fb30f4d4">工商网监 电子标识</a>
+    </p>
+  </div>
+
+  </div>
+</div>
+
+    <script src="../../assets/jquery/jquery.min.js"></script>
+  <script src="../js/public.js"></script>
+  <script src="./js/cart.js"></script>
+</body>
+</html>

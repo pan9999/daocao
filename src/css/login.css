@@ -1,0 +1,189 @@
+
+html, body {
+    width: 100%;
+    height: 100%;
+  }
+
+.current_location {
+    height: 50px;
+    color: #888888;
+    font-size: 14px;
+    margin-bottom: 40px;
+    vertical-align: middle; 
+    line-height: 50px;
+}
+.wrap_980 { 
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.login_box {
+    width: 1200px;
+    margin-top: 10px;
+    border: 1px solid #888888;
+}
+
+.hd {
+    background-color: #f1ececdc;
+}
+.hd > .txt{
+    float: right;
+    margin-right: 10px;
+}
+.hd > .txt > a {
+    color: red;
+}
+
+/* input 身体 */
+
+
+
+.bd{
+    display: flex;
+    /* margin-left: 00px; */
+    justify-content: center;
+    align-items: center;
+}
+.reg_wrap {
+    position: relative;
+}
+.reg_wrap .item {
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+    *zoom: 1;
+    padding: 15px 0;
+    font-size: 14px;
+}
+.form {
+    display: block;
+    margin-top: 0em;
+}
+.formLogin{
+    float: left;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.reg_wrap .bd {
+    border: 1px solid #dadada;
+    border-top: 0 none;
+    padding: 35px 50px 50px;
+}
+.reg_wrap .item .l_a {
+    width: 200px;
+    text-align: right;
+    padding-right: 5px;
+}
+.reg_wrap .item .l_a, .reg_wrap .item .l_b, .reg_wrap .item .l_c {
+    float: left;
+    line-height: 32px;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+input {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: textfield;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+
+.reg_wrap .item .l_a {
+    width: 200px;
+    text-align: right;
+    padding-right: 5px;
+}
+
+.reg_wrap .item .l_a, .reg_wrap .item .l_b, .reg_wrap .item .l_c {
+    float: left;
+    line-height: 32px;
+}
+.remember{
+    text-align: center;
+}
+
+button {
+    appearance: button;
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+    box-sizing: border-box;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+    background: url(http://www.daocaomall.com/themes/idaocao/image/login_sp.png) no-repeat center center;
+}
+.reg_wrap .l_submit {
+    display: block;
+    border: 0 none;
+    width: 85px;
+    height: 32px;
+    overflow: hidden;
+    font: 0pt/1000px Arial;
+    background-position: -180px -82px;
+    cursor: pointer;
+    margin: 10px 0 10px 80px;
+}
+.bot_txt,.bot_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-control {
+    /* display: block; */
+    /* width: 100%; */
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}

@@ -1,0 +1,187 @@
+.flow_icon {
+  margin-top: 20px;
+  display: block;
+  float: left;
+  width: 170px;
+  height: 72px;
+  overflow: hidden;
+  font: 0pt/1000px Arial;
+}
+
+.steps {
+  float: right;
+  margin-top: 47px;
+  width: 600px;
+}
+.steps li {
+  float: left;
+  width: 200px;
+  height: 25px;
+  font: bold 14px/25px simsun;
+  background-color: #e4e4e4;
+}
+.steps li .current {
+  color: #fff;
+  background-color: #000;
+  background-position: 0 -25px;
+  background-position: 100% 0;
+}
+.steps li span {
+  /* background: url(../image/steps.png) no-repeat 100% 0; */
+  height: 25px;
+  padding: 0 30px;
+  display: block;
+}
+
+.my_shop {
+  border: 1px solid #dcdfe5;
+  clear: both;
+  padding: 2px;
+  overflow: hidden;
+  zoom: 1;
+  margin: 10px 0 30px;
+  width: 1200px;
+}
+.my_shop ul {
+  margin-top: 0;
+  background: #000;
+  clear: both;
+  color: #fff;
+  height: 31px;
+  line-height: 31px;
+}
+.my_shop ul li.s {
+  width: 110px;
+}
+.my_shop ul li.w100, .my_shop .listBox dd.w100 {
+  width: 100px;
+}
+.my_shop ul li {
+  float: left;
+  text-align: center;
+}
+.my_shop ul li.n {
+  width: 290px;
+}
+.my_shop .blue {
+  background: #f9fbfd;
+}
+.my_shop .listBox {
+  margin: 2px 0px;
+  padding: 0 0 10px 20px;
+  display: block;
+  clear: both;
+  overflow: hidden;
+  zoom: 1;
+}
+.my_shop .listBox {
+  margin: 2px 0px;
+  padding: 0 0 10px 20px;
+  display: block;
+  clear: both;
+  overflow: hidden;
+  zoom: 1;
+}
+.my_shop .listBox dt {
+  color: #1F3D99;
+  float: left;
+  line-height: 16px;
+  margin-left: 12px;
+  width: 290px;
+  _width: 280px;
+  *width: 278px;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+.my_shop ul li.w85, .my_shop .listBox dd.w85 {
+  width: 85px;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.my_shop .listBox dd {
+  width: 120px;
+  float: left;
+  line-height: 20px;
+  text-align: center;
+}
+.total{
+  position: relative;
+}
+.clearshopping{
+  width: 100px;
+  height: 25px;
+  background-color: crimson;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 20px;
+  left: 100px;
+}
+.my_shop .listBox .i {
+  float: left;
+  margin-top: 10px;
+}
+
+.my_shop .listBox .i img {
+  width: 68px;
+  height: 68px;
+}
+.my_shop .listBox .c {
+  float: left;
+  margin-top: 10px;
+  position: relative;
+  margin-left: 10px;
+}
+.my_shop .listBox dl {
+  clear: both;
+  padding-top: 5px;
+}
+
+.my_shop .fr {
+  float: right;
+}
+.my_shop .fr b.p16 {
+  font-size: 16px;
+}
+
+.my_shop .fr b {
+  color: #ca0809;
+}
+.nextstep_box {
+  display: block;
+  clear: both;
+  text-align: right;
+  margin-top: 10px;
+  float: right;
+}
+.goShopping {
+  background-position: 0 -138px;
+  width: 100px;
+  height: 30px;
+  margin-right: 20px;
+  background-color: #ca0809;
+  color: #fff;
+  float: left;
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pay {
+  background-position: 0 0px;
+  background-color: #ca0809;
+  color: #fff;
+  width: 100px;
+  height: 35px;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
